@@ -1,0 +1,48 @@
+.editChatRoom {
+  // border: 1px solid red;
+  margin: 10px 0;
+  padding: .313em;
+  text-align: center;
+  .editChatRoom-btn {
+    background-color: $blue;
+    color: white;
+    font-weight: 600;
+    height: 1.75em;
+    width: 4.5em;
+    margin: 5px;
+    font-size: .75em;
+  }
+  h4 {
+    text-transform: capitalize;
+  }
+  label {
+    font-size: .8em;
+    font-style: italic;
+    font-weight: 500;
+  }
+  hr {
+    width: 60%;
+    margin: 0 auto;
+  }
+}
+
+.editChatRoom:hover {
+  background-color: $background-color;
+  color: white;
+}
+
+.editChatRoom-click {
+  background-color: $background-color;
+  color: white;
+  margin: 10px 0;
+  padding: .313em;
+  text-align: center;
+}
+
+.edit-delete-chatroom-btns {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin: .5em 0 1em 0;
+}
+

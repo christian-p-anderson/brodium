@@ -1,0 +1,45 @@
+i:hover{
+  cursor: pointer;
+  }
+
+.chat-rooms{
+  padding-top: 10px ;
+  padding-right: 15px;
+  transition: font-size .25s ease-out;
+  hr {
+    width: 80%; 
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  cursor: pointer;
+}
+
+.chat-rooms:hover {
+  font-size: 1.1em;
+}
+
+.whenHovered1:hover{
+cursor: pointer;
+}
+
+.sideBar {
+  width: 250px;
+  border-right: solid black .5px;
+  background-color: #f3f3f3;
+  height: 85vh;
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  .add-chatroom-container {
+    margin: .625em auto 0 auto;
+    .add-chatroom-btn {
+      background-color: $green;
+      padding: 9px 15px;
+      font-size: 1em;
+      color: white;
+      cursor: pointer;
+      margin-bottom: 5px;
+      border: none;
+    }
+  }
+}
